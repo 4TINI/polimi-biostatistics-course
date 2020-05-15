@@ -12,18 +12,23 @@ The material provided by the Professors and exercises have been redrafted using 
 
 ## Clone the Repo
 
+Open terminal and navigate to a designated location. Clone the repository using:
+
+```
+https://github.com/4TINI/polimi-biostatistics-course.git
+```
+
 ## Prerequisites
 
-The _requirements.txt_ file should list all Python libraries that the project depends on, and they will be installed automatically using:
+- Git
+- Python >= 3.6
+- Jupyter Notebook or Jupyter Lab
+- pip
+
+The _requirements.txt_ file should list all Python packages and modules the project depends on, and they will be installed automatically using:
 
 ```
-pip install -r requirements.txt
-```
-
-If by chance some libraries or packages are missing generating some errors during execution a useful tool is [_pipreqs_](https://pypi.org/project/pipreqs/). To update the _requirements.txt_ file just type
-
-```
-pipreqs --force path/to/your/package
+pip3 install -r requirements.txt
 ```
 
 ## Authors
